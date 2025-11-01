@@ -213,5 +213,3 @@ streamgrid.log
 backup/
 *.zip
 *.tar.gz
-venv/
-archive/

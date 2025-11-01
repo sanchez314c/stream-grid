@@ -1,1 +1,0 @@
-dist/mac/StreamGRID.app

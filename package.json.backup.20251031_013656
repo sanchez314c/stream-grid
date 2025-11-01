@@ -23,11 +23,11 @@
     "package": "electron-builder",
     "postinstall": "electron-builder install-app-deps",
     "rebuild": "electron-rebuild -f -w sqlite3",
-    "dist": "npm run build && electron-builder --publish=never",
-    "dist:current": "npm run build && electron-builder --publish=never",
-    "dist:mac": "npm run build && electron-builder --mac --publish=never",
-    "dist:win": "npm run build && electron-builder --win --publish=never --win.certificateFile=\"\"",
-    "dist:linux": "npm run build && electron-builder --linux --publish=never --linux.sign=false",
+    "dist": "npm run build && electron-builder --mac --win --linux",
+    "dist:current": "npm run build && electron-builder",
+    "dist:mac": "npm run build && electron-builder --mac",
+    "dist:win": "npm run build && electron-builder --win",
+    "dist:linux": "npm run build && electron-builder --linux",
     "compile-build-dist": "./scripts/compile-build-dist.sh",
     "compile-build-dist:win": "scripts\\compile-build-dist.bat",
     "run:macos": "./scripts/run-macos.sh",
@@ -80,7 +80,7 @@
     "@vitejs/plugin-react": "^4.7.0",
     "autoprefixer": "^10.4.21",
     "concurrently": "^9.2.0",
-    "electron": "^39.0.0",
+    "electron": "^28.3.3",
     "electron-builder": "^26.0.12",
     "electron-packager": "^17.1.2",
     "electron-rebuild": "^3.2.9",
@@ -128,13 +128,20 @@
     ],
     "mac": {
       "category": "public.app-category.video",
-      "icon": "build_resources/icons/icon.icns",
-      "hardenedRuntime": false,
-      "gatekeeperAssess": false,
+      "icon": "resources/icons/icon.icns",
+      "hardenedRuntime": true,
+      "gatekeeperAssess": true,
       "identity": null,
       "target": [
         {
           "target": "dmg",
+          "arch": [
+            "x64",
+            "arm64"
+          ]
+        },
+        {
+          "target": "zip",
           "arch": [
             "x64",
             "arm64"
@@ -157,7 +164,7 @@
       ]
     },
     "win": {
-      "icon": "build_resources/icons/icon.ico",
+      "icon": "resources/icons/icon.ico",
       "target": [
         {
           "target": "nsis",
@@ -199,7 +206,7 @@
       "upgradeCode": "12345678-1234-5678-9012-123456789012"
     },
     "linux": {
-      "icon": "build_resources/icons/icon.png",
+      "icon": "resources/icons/icon.png",
       "category": "AudioVideo",
       "executableName": "streamgrid",
       "maintainer": "StreamGRID Team <support@streamgrid.app>",
