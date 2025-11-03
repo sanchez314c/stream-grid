@@ -9,32 +9,9 @@
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?logo=node.js)](https://nodejs.org/)
 [![Platform](https://img.shields.io/badge/Platform-macOS%20|%20Windows%20|%20Linux-lightgrey)](https://github.com/sanchez314c/stream-grid/releases)
 
-## 📸 Application Showcase
+## 📸 Main Interface
 
-### Main Interface
 ![StreamGRID Screenshot](build_resources/screenshots/stream-grid-interface-00.png)
-
-### Multi-Stream Grid Layout
-![Multi-Stream Grid Layout](build_resources/screenshots/stream-grid-interface-01.png)
-*Monitor multiple streams simultaneously in customizable grid layouts*
-
-### Stream Controls Panel
-![Stream Controls Panel](build_resources/screenshots/stream-grid-interface-02.png)
-*Individual controls for each stream including volume, quality, and playback options*
-
-### Stream Library Management
-![Stream Library Management](build_resources/screenshots/stream-grid-interface-03.png)
-*Save, organize, and quickly access frequently used streams*
-
-### Performance Monitoring
-![Performance Monitoring](build_resources/screenshots/stream-grid-interface-04.png)
-*Real-time system metrics and network performance indicators*
-
-### Settings & Configuration
-![Settings & Configuration](build_resources/screenshots/stream-grid-interface-05.png)
-*Comprehensive settings panel for customization and preferences*
-
----
 
 > The Ultimate Professional Streaming Tool - Monitor Multiple RTMP Streams in Real-Time
 
@@ -54,6 +31,11 @@ StreamGRID is a professional-grade desktop application for monitoring and displa
 - 🌐 **Network Monitoring** - Real-time bandwidth usage and connection status indicators
 - 📊 **Performance Metrics** - CPU, memory, and network usage monitoring
 - 🎯 **Focus Mode** - Isolate individual streams for detailed monitoring
+
+## 📸 Grid Layout in Action
+
+![Multi-Stream Grid Layout](build_resources/screenshots/stream-grid-interface-01.png)
+*Monitor multiple streams simultaneously in customizable grid layouts*
 
 ## 🚀 Quick Start - One-Command Build & Run
 
@@ -177,6 +159,11 @@ After building, find your executables in:
 - **Refresh**: Reconnect to stream
 - **Remove**: Remove stream from grid
 
+## 📸 Stream Controls Interface
+
+![Stream Controls Panel](build_resources/screenshots/stream-grid-interface-02.png)
+*Individual controls for each stream including volume, quality, and playback options*
+
 ### 5. Stream Library
 
 **Organize your streams:**
@@ -184,6 +171,11 @@ After building, find your executables in:
 - **Categories**: Organize streams by category or project
 - **Quick Access**: One-click load saved stream configurations
 - **Import/Export**: Share stream lists with team members
+
+## 📸 Stream Library Management
+
+![Stream Library Management](build_resources/screenshots/stream-grid-interface-03.png)
+*Save, organize, and quickly access frequently used streams*
 
 ## 🔧 Configuration
 
@@ -227,6 +219,11 @@ export STREAMGRID_HW_ACCEL=auto  # auto, enabled, disabled
 | `Escape` | Exit fullscreen |
 | `1-9` | Select grid cell |
 | `Ctrl+1-9` | Quick load layout |
+
+## 📸 Performance Monitoring Dashboard
+
+![Performance Monitoring](build_resources/screenshots/stream-grid-interface-04.png)
+*Real-time system metrics and network performance indicators*
 
 ## 🐛 Troubleshooting
 
@@ -392,6 +389,11 @@ npm run lint
 - **ESLint**: Consistent code formatting and linting
 - **Prettier**: Code formatting
 - **Conventional Commits**: Follow conventional commit message format
+
+## 📸 Settings & Configuration
+
+![Settings & Configuration](build_resources/screenshots/stream-grid-interface-05.png)
+*Comprehensive settings panel for customization and preferences*
 
 ## 📄 License
 
