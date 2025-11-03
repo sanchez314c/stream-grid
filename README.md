@@ -9,9 +9,32 @@
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?logo=node.js)](https://nodejs.org/)
 [![Platform](https://img.shields.io/badge/Platform-macOS%20|%20Windows%20|%20Linux-lightgrey)](https://github.com/sanchez314c/stream-grid/releases)
 
-## 📸 Main Interface
+## 📸 Application Showcase
 
+### Main Interface
 ![StreamGRID Screenshot](build_resources/screenshots/stream-grid-interface-00.png)
+
+### Multi-Stream Grid Layout
+![Multi-Stream Grid Layout](build_resources/screenshots/stream-grid-interface-01.png)
+*Monitor multiple streams simultaneously in customizable grid layouts*
+
+### Stream Controls Panel
+![Stream Controls Panel](build_resources/screenshots/stream-grid-interface-02.png)
+*Individual controls for each stream including volume, quality, and playback options*
+
+### Stream Library Management
+![Stream Library Management](build_resources/screenshots/stream-grid-interface-03.png)
+*Save, organize, and quickly access frequently used streams*
+
+### Performance Monitoring
+![Performance Monitoring](build_resources/screenshots/stream-grid-interface-04.png)
+*Real-time system metrics and network performance indicators*
+
+### Settings & Configuration
+![Settings & Configuration](build_resources/screenshots/stream-grid-interface-05.png)
+*Comprehensive settings panel for customization and preferences*
+
+---
 
 > The Ultimate Professional Streaming Tool - Monitor Multiple RTMP Streams in Real-Time
 
@@ -31,28 +54,6 @@ StreamGRID is a professional-grade desktop application for monitoring and displa
 - 🌐 **Network Monitoring** - Real-time bandwidth usage and connection status indicators
 - 📊 **Performance Metrics** - CPU, memory, and network usage monitoring
 - 🎯 **Focus Mode** - Isolate individual streams for detailed monitoring
-
-## 📸 Screenshots
-
-<details>
-<summary>View Screenshots</summary>
-
-![Main Grid Layout](build_resources/screenshots/stream-grid-interface-01.png)
-*Multi-stream grid layout with 6 simultaneous streams*
-
-![Stream Controls](build_resources/screenshots/stream-grid-interface-02.png)
-*Individual stream controls and settings panel*
-
-![Stream Library](build_resources/screenshots/stream-grid-interface-03.png)
-*Saved streams library with quick access and organization*
-
-![Performance Monitor](build_resources/screenshots/stream-grid-interface-04.png)
-*Real-time performance metrics and network monitoring*
-
-![Settings Panel](build_resources/screenshots/stream-grid-interface-05.png)
-*Comprehensive settings and configuration options*
-
-</details>
 
 ## 🚀 Quick Start - One-Command Build & Run
 
